@@ -1,5 +1,5 @@
 # Audio-Deepfake-Model
-Version 1: the initial prototype of End-to-End model
+Version 1: the initial prototype of **End-to-End** model
 
 # Network Structure
 ![End-to-end_v2](https://user-images.githubusercontent.com/114956483/193681934-b168f174-17b7-4d43-8a90-cdda28270b8e.jpg)
