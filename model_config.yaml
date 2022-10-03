@@ -1,0 +1,31 @@
+optimizer: Adam
+lr: 0.001
+epoch: 50
+batch_size: 5
+warmup: 4000
+
+
+#model-related
+model:
+  drop_out: 0.1
+  samp_len: 48000
+
+  num_filter: 128  # no. of filter for SincNet
+  filt_len: 80
+  in_channels: 1
+  max_pool_len: 3
+
+  patch_size: 24
+  patch_embed: 512
+  seq_size: [1024,256,256]
+  
+  encoder_hidden: 2048
+  num_block: 12
+  num_head: 8
+
+  nb_fc_node: 1024
+  nb_classes: 2
+
+  #For ENF FCN
+  filts: [64, [64, 64], [128, 128],[128, 128]]
+  kernel: [8, 5, 3]
